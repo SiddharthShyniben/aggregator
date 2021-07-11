@@ -16,6 +16,7 @@ speed-measure-plugin*.json
 
 # Vim files
 *.swp
+.vim/
 
 # misc
 /.sass-cache
