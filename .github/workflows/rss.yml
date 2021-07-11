@@ -1,0 +1,11 @@
+name: Generate RSS feed and build
+on: 
+  schedule:
+    - cron: "0 */12 * * *"
+jobs: 
+  Generate-RSS:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Write feed data
+        runs: echo "Not implemented!"
+        
